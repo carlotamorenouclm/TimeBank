@@ -1,4 +1,3 @@
-Perfecto 👌 aquí tienes un **README.md corto, limpio y profesional**, ideal para el repo `TimeBankBack`:
 # ⏳ TimeBankBack
 
 Backend of the **Time Bank** web application developed for the Web Systems Development laboratory assignment.
