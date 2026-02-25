@@ -13,7 +13,7 @@ The application follows a RESTful architecture with token-based authentication (
 
 The project is divided into two independent repositories:
 
-* **TimeBankBack** → Main backend (Django + REST API)
+* **TimeBankBack** → Main backend (Fast API)
 * **TimeBankFront** → Frontend application (client-side interface)
 
 The backend manages:
