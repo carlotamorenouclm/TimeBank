@@ -1,0 +1,67 @@
+# ----------------------------
+# Entorno virtual
+# ----------------------------
+.venv/
+venv/
+env/
+
+# ----------------------------
+# Variables de entorno
+# ----------------------------
+.env
+.env.*
+
+# Pero sí queremos subir el ejemplo
+!.env.example
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# Base de datos local (por si usas SQLite en algún momento)
+# ----------------------------
+*.db
+*.sqlite3
+
+# ----------------------------
+# Archivos del sistema (Mac)
+# ----------------------------
+.DS_Store
+
+# ----------------------------
+# IDEs
+# ----------------------------
+.vscode/
+.idea/
+
+# ----------------------------
+# Coverage / Testing
+# ----------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ----------------------------
+# Alembic (NO ignores la carpeta alembic/)
+# Solo ignora archivos temporales
+# ----------------------------
+alembic/__pycache__/
+
+# ----------------------------
+# Archivos compilados
+# ----------------------------
+build/
+dist/
+*.egg-info/
+
+
