@@ -52,12 +52,6 @@ htmlcov/
 .pytest_cache/
 
 # ----------------------------
-# Alembic (NO ignores la carpeta alembic/)
-# Solo ignora archivos temporales
-# ----------------------------
-alembic/__pycache__/
-
-# ----------------------------
 # Archivos compilados
 # ----------------------------
 build/
